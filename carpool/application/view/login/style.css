@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    width: 40vw;
+}
+
+form div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
